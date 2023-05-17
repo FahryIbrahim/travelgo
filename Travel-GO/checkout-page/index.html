@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel-Go</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="bg-black" style="color:#fff">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-body-dark" style="max-height: 92px;" data-bs-theme="dark">
+        <div class="container-fluid ">
+          <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="/img/Logowhite.png" class="logo" alt="logo" height="35px" width="80px">
+              </a>
+            </div>
+          </nav>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/homepage/home/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/WebTravel-master/index.html">Package</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accomodation
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/Hotel-master/index.html">Hotels</a></li>
+                  <li><a class="dropdown-item" href="#">Flights</a></li>
+                  <li><a class="dropdown-item" href="#">Hotels + Flight</a></li>
+                </ul>
+              </li>    
+              <li class="nav-item">
+                <a class="nav-link" href="/contact-us/index.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="frame-2 frame">
+            <a href="/homepage/Login/login.html">
+                <button type="button" class="btn frame-2 frame fw-bolder"><span class="text-light ">Login</span></button>
+            </a>
+          </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb" style="font-size: 20px; margin-top: 20px;">
+                <li class="breadcrumb-item" href="/homepage/index.html">
+                    Home
+                </li>
+                <li class="breadcrumb-item">
+                    Accomodation
+                </li>
+                <li class="breadcrumb-item">
+                    <span class="text-danger">Merlynn Park Hotel</span>
+                </li>
+            </ol>
+            <div class="col-2">
+                <div class="card card-detail card-left" style="background-color: #252525; width: 623px; height: 360px; margin-top: 10px;">
+                    <h5 style="margin-top: 25px; margin-left:37px; font-weight: bold;">Who Is Going?</h5>
+                    <div class="judul-card-left">
+                        <p class="text1">Picture</p>
+                        <p class="text2">Name</p>
+                        <p class="text3">Nationality</p>
+                        <p class="text4">VISA</p>
+                        <p class="text5">Passport</p>
+                    </div>
+                    <div class="isi-card-left">
+                        <img src="/img/pp-1.png" alt="" class="pp-1" style="margin-left: 48px;">
+                        <p class="isitext1">Bambang</p>
+                        <p class="isitext2">CN</p>
+                        <p class="isitext3">N/A</p>
+                        <p class="isitext4">Active</p>
+                        <img src="/img/pp-1.png" alt="" class="pp-2" style="margin-left: 48px; margin-top: 10px;">
+                        <p class="isitext1-1">Bimbang</p>
+                        <p class="isitext2-2">SG</p>
+                        <p class="isitext3-3">30 Days</p>
+                        <p class="isitext4-4">Active</p>
+                    </div>
+                    <h5 style="margin-top: 25px; margin-left:37px; font-weight: bold;">Add Member?</h5>
+                    <form class="form-inline">
+                        <label for="inputUsername" class="sr-only"></label>
+                        <input 
+                            style="height: 44px; width: 163px; margin-left: 28px;"
+                            type="text"
+                            name="inputUsername" 
+                            class="form-control mb-2 mr-sm-2" 
+                            id="inputUsername" 
+                            placeholder="Username"
+                        />
+                        <label for="inputVisa" class="sr-only"></label>
+                        <select name="inputVisa" id="inputVisa" class="custom-select mb-2 mr-sm-2" style="height: 44px; width: 100px; margin-left: 199px; margin-top: -50px; float: left; border-radius: 5px;
+                        border: 2px solid;">
+                            <option value="VISA" selected>VISA</option>
+                            <option value="30 Days">30 Days</option>
+                            <option value="N/A">N/A</option>
+                        </select>
+                        <label for="doePassport" class="sr-only"></label>
+                        <div class="input-group mb-2 mr-sm-2" style="height: 44px; width: 134px; float: left; margin-top: -50px; margin-left: 5px;">
+                            <input type="text" class="form-control datepicker" id="doePassport" placeholder="DOE Passport" >
+                        </div>
+                        <button type="submit" class="btn btn-add-now mb-2 px-4" style="height: 44px; width: 130px; float: right; margin-top: -52px; margin-right: 40px; background-color: #FF5733;" >
+                            Add Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-7">
+                <div style="margin-top: 10px; margin-left: 430px;  margin-bottom: 20px;">
+                    <div class="card card-detail card-right" style="background-color: #252525; width: 394px; height: 600px;">
+                        <h5 style=" margin-top: 20px; margin-left: 13px; color: #F4F4F4;">Checkout Information</h5>
+                        <div class="top">
+                            <p class="jh">Members</p>
+                            <p class="harga">2 Person</p>
+                            <p class="jh">Additional VISA</p>
+                            <p class="harga">$190,00</p>
+                            <p class="jh">Trip Price </p>
+                            <p class="harga">$80 / person</p>
+                            <p class="jh">Sub Total</p>
+                            <p class="harga">$350,00</p>
+                        </div>
+                        <div class="middle">
+                            <h5 style="margin-left: 13px; color: #F4F4F4;">Payment Instruction</h5>
+                            <p style=" margin-top: 7px; margin-left: 13px; color: #F4F4F4; opacity: 55%;">Please complete your payment before to continue the wonderful trip</p>
+                        </div>
+                        <div class="payment1">
+                            <img src="/img/card.png" alt="" style="margin-top:15px ; margin-left:28px;">
+                            <div class="text-payment">
+                                <h6 style="margin-left: 13px; color: #F4F4F4;">PT Travel GO</h6>
+                                <h6 style="margin-left: 13px; color: #F4F4F4;">0881 8830 88800</h6>
+                                <h6 style="margin-left: 13px; color: #F4F4F4;">Bank Central Asia</h6>
+                            </div>
+                        </div>
+                        <div class="payment2">
+                            <img src="/img/card.png" alt="" style="margin-top:8px ; margin-left:28px;">
+                            <div class="text-payment">
+                                <h6 style="margin-left: 13px; color: #F4F4F4;">PT Travel GO</h6>
+                                <h6 style="margin-left: 13px; color: #F4F4F4;">0860 8450 8766</h6>
+                                <h6 style="margin-left: 13px; color: #F4F4F4;">Bank HSBC</h6>
+                            </div>
+                        </div>
+                        <button type="button" class="block">I Have Made Payment</button>
+                        <a href="#" class="cb1" style="color: #f4f4f4; text-decoration: none; margin-bottom: auto;">Cancel Booking</a>                  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

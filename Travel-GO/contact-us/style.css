@@ -1,0 +1,172 @@
+.navbar-nav .nav-link {
+    font-size: 20px;
+}
+
+.navbar{
+  position: sticky;
+}
+
+/* .my-div {
+    margin-top: 31px;
+    margin-bottom: 31px;
+} */
+
+.buttonbooknow{
+  text-align: right;
+  width 139px;
+  height: 44px;
+  margin-bottom: -80px;
+  margin-left:1370px;
+}
+
+.btnlogin{
+  font-weight: bold;
+  font-size: 20px;
+  color:#fff;
+  border: transparent;
+  width: 94px; 
+  height: 44px;
+  background-color: #FF5733;
+}
+.btnlogin:hover {
+  background-color: #FF1833;
+}
+
+.login-btn {
+    width: 100px;
+    height: 84px;
+    float: right;
+    background-color: #FF5733;
+    color: #fff;
+}
+
+.login-btn:hover {
+    background-color: #FF1833;
+}
+
+.navbar-brand{
+  margin-left:20px;
+}
+
+
+.d-block{
+  width:1220px;
+  height:575px;
+  margin-left: 120px;
+
+}
+
+.frame{
+    align-items: center;
+    display: flex;
+    positon: absolute;
+  }
+  
+  .frame-2{
+    background-color: rgba(255, 87, 51,1);
+    border-radius: 3px;
+    gap: 10px;
+    justify-content: center;
+    left: 1201px;
+    padding: 10px 25px;
+    top:24px;
+    width: fit-content;
+  }
+  
+  .login{
+    font-color: #fff;
+    color:#f4f4f4;
+    font-size: 24px;
+    font-weight: 400 ;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+
+  .judul1{
+    margin-top:24px;
+  }
+
+.card{
+    /* margin-bottom: 139px; */
+    margin-left:114px;
+    margin-right:115px;
+    justify-content: center;
+    line-align: center;
+}
+
+.icon-envelope-closed-Nybmjz{
+    height: 36px;
+    width: 45px;
+    margin: 0px;
+}
+
+.icon-facebook-Nybmjz{
+    height: 36px;
+    width: 45px;
+    margin: 0px;
+}
+
+.icon-twitter-Nybmjz{
+    height: 36px;
+    width: 45px;
+    margin: 0px;
+}
+
+.vector-Nybmjz{
+    height: 36px;
+    width: 45px;
+    margin: 0px;
+}
+
+.card-body{
+    width: 1137px; 
+    height: 68px;
+}
+
+.card-text1{
+    font-size: 24px;
+    font-weight: medium;
+    float: right;
+    margin-right:805px;
+}
+
+.card-text2{
+    font-size: 24px;
+    font-weight: medium;
+    float: right;
+    margin-right:920px;
+}
+
+.card-text3{
+    font-size: 24px;
+    font-weight: medium;
+    float: right;
+    margin-right:930px;
+}
+
+.card-text4{
+    font-size: 24px;
+    font-weight: medium;
+    float: right;
+    margin-right:920px;
+}
+
+.card1{
+
+}
+.card2{
+    margin-top: 47px;
+}
+.card3{
+    margin-top: 47px;
+}
+.card4{
+    margin-top: 47px;
+}
+
+.card-group{
+    margin-top: 40px;
+}

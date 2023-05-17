@@ -1,0 +1,167 @@
+.navbar-nav .nav-link {
+    font-size: 20px;
+  }
+  
+  .navbar{
+  position: sticky;
+  }
+  
+  /* .my-div {
+    margin-top: 31px;
+    margin-bottom: 31px;
+  } */
+  
+  .buttonbooknow{
+  text-align: right;
+  width: 139px;
+  height: 44px;
+  margin-bottom: -80px;
+  margin-left:1370px;
+  }
+  
+  .btnlogin{
+  font-weight: bold;
+  font-size: 20px;
+  color:#fff;
+  border: transparent;
+  width: 94px; 
+  height: 44px;
+  background-color: #FF5733;
+  }
+  .btnlogin:hover {
+  background-color: #FF1833;
+  }
+  
+  .login-btn {
+    width: 100px;
+    height: 84px;
+    float: right;
+    background-color: #FF5733;
+    color: #fff;
+  }
+  
+  .login-btn:hover {
+    background-color: #FF1833;
+  }
+  
+  .navbar-brand{
+  margin-left:20px;
+  }
+  
+  
+  .d-block{
+  width:1220px;
+  height:575px;
+  margin-left: 120px;
+  
+  }
+
+  .judul{
+    padding-top: 60px;
+    margin-left: -27%;
+    font-size: 3em;
+  }
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%;
+}
+
+img{
+    max-width: 320px;
+    float: left;
+    margin-left:-78% ;
+    margin-top: -166px;
+   
+}
+
+.card1 {
+  margin-top: 4%;
+  margin-left: -14%;
+}
+
+.card-body{
+  height:367px;
+}
+
+.text-box {
+    color: #fff;
+    
+}
+
+.text-box h2 {
+    font-size: 38px;
+    text-align: justify;
+    margin-left:-30%;
+    margin-top:-25%;
+}
+
+.star {
+  margin-left: 27%;
+  padding-top: 30%;
+}
+
+.loc {
+  margin-left:-40px;
+  margin-top: 5%;
+  float: left; 
+}
+
+.loc p {
+  margin-left:-60% ;
+  margin-top: -170px;
+  font-size: 18px;
+}
+
+
+  .buttonbooknow {
+    text-align: right;
+    width: 139px;
+    height: 44px;
+    margin-top: -4%;
+    margin-left: 860px;
+    }
+
+    .card2 {
+      margin-top: 4%;
+      margin-left: -23%;
+      width: 1477px;
+    }
+    
+    .card-body{
+      height:367px;
+    }
+
+    .loc1 {
+      margin-left:-46px;
+      margin-top: 5%;
+      float: left; 
+     }
+ 
+     .loc1 p {
+       margin-left:-60% ;
+       margin-top: -170px;
+       font-size: 18px;
+     }
+
+    .card3 {
+      margin-top: 4%;
+      margin-left: -23%;
+      width: 1477px;
+    }
+    
+    .card-body{
+      height:367px;
+    }
+    
+    .loc2 {
+     margin-left:-27px;
+     margin-top: 5%;
+     float: left; 
+    }
+
+    .loc2 p {
+      margin-left:-60% ;
+      margin-top: -170px;
+      font-size: 18px;
+    }

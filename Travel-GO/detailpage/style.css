@@ -1,0 +1,228 @@
+.navbar-nav .nav-link {
+    font-size: 20px;
+}
+
+.navbar{
+  position: sticky;
+}
+
+/* .my-div {
+    margin-top: 31px;
+    margin-bottom: 31px;
+} */
+
+.buttonbooknow{
+  text-align: right;
+  width: 139px;
+  height: 44px;
+  margin-bottom: -80px;
+  margin-left:1370px;
+}
+
+.btnlogin{
+  font-weight: bold;
+  font-size: 20px;
+  color:#fff;
+  border: transparent;
+  width: 94px; 
+  height: 44px;
+  background-color: #FF5733;
+}
+.btnlogin:hover {
+  background-color: #FF1833;
+}
+
+.login-btn {
+    border-radius: 0 !important;
+    width: 100px;
+    height: 84px;
+    float: right;
+    background-color: #FF5733;
+    color: #fff;
+}
+
+.login-btn:hover {
+    border-radius: 0 !important;
+    background-color: #FF1833;
+}
+
+.navbar-brand{
+  margin-left:20px;
+}
+
+
+.d-block{
+  width:1220px;
+  height:575px;
+  margin-left: 120px;
+
+}
+
+
+.frame{
+  align-items: center;
+  display: flex;
+}
+
+.frame-2{
+  background-color: rgba(255, 87, 51,1);
+  border-radius: 3px;
+  gap: 10px;
+  justify-content: center;
+  left: 1201px;
+  padding: 10px 25px;
+  top:24px;
+  width: fit-content;
+}
+
+.login{
+  color:#f4f4f4;
+  font-size: 24px;
+  font-weight: 400 ;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.section-details-header{
+  min-height: 50px;
+
+  margin-top: -45px;
+}
+
+
+.goback{
+  text-align: center;
+  justify-content: right;
+  margin-top:20px;
+  float: left;
+}
+
+.breadcrumb{
+  font-size:24px;
+  float:right;
+  margin:20px;
+  color:#fff;
+ text-align: center;
+ justify-content: right;
+}
+
+.breadcrumb > li + li::before {
+  color: #fff !important;
+}
+
+.card-details{
+  margin-top: 20px;
+}
+
+.bi-star-fill{
+margin-top: 10px;
+}
+
+.rating{
+  font-size: 25px; 
+  margin-left: -63px; 
+  margin-top: 11px;
+}
+
+.kotakan{
+  margin-top:22px;
+  margin-left:-8px;
+  /* margin-left:-40px; */
+}
+
+.judulbwh{
+  margin-left: 20px;
+
+  margin-top: -42px;
+}
+
+.kotakan2{
+  margin-top:8px;
+  margin-left:-8px;
+  /* margin-left:-40px; */
+}
+
+.star{
+  margin-bottom: 6px;
+}
+
+.garis1{
+  margin-left:-30px;
+}
+
+.top{
+  margin-left: 18px;
+  margin-top: 18px;
+  opacity: 55%;
+  color: #f4f4f4;
+}
+
+.harga1{
+  margin-top: -40px;
+  margin-left: 239px;
+  margin-right: 12px;
+}
+.harga2{
+  margin-top: -40px;
+  margin-left: 230px;
+  margin-right: 12px;
+}
+.harga3{
+  margin-top: -40px;
+  margin-left: 230px;
+  margin-right: 12px;
+}
+.harga4{
+  margin-top: -40px;
+  margin-left: 220px;
+  margin-right: 12px;
+}
+.harga5{
+  margin-top: -40px;
+  margin-left: 230px;
+  margin-right: 12px;
+}
+
+.text-payment{
+  margin-left: 80px;
+  margin-top: -65px;
+}
+
+.payment2{
+  margin-top:20px;
+}
+
+.block {
+  color: #F4F4F4;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #FF5733;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover{
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #8B0000;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cb1{
+  margin-top: 10px;
+  margin-left: 125px;
+  margin-right: 109px;
+  margin-bottom: 20px;
+}
